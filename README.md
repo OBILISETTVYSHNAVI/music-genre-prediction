@@ -25,7 +25,6 @@ Predict the genre of any music file using deep learning and audio signal process
 streamlit run app.py
 
 
-
 You find the website the below URL:
 
 https://0b09-34-81-140-107.ngrok-free.app/
