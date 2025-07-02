@@ -1,7 +1,0 @@
-streamlit==1.33.0
-numpy
-tensorflow-cpu==2.10.1
-librosa==0.10.0.post2
-soundfile
-pydub
-matplotlib
