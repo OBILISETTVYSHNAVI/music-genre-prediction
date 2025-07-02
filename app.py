@@ -53,6 +53,3 @@ if audio_file is not None:
 with open("app.py", "w") as f:
     f.write(app_code)
 
-# Download
-from google.colab import files
-files.download("app.py")
