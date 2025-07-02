@@ -9,7 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 
 N_MFCC = 40
 MAX_LEN = 130
-MODEL_PATH = "genre_cnn.keras"
+MODEL_PATH = "genre_cnn.h5"
 LABELS = ['blues', 'classical', 'country', 'disco', 'hiphop',
           'jazz', 'metal', 'pop', 'reggae', 'rock']
 
