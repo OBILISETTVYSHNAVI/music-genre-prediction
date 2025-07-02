@@ -1,6 +1,5 @@
 app_code = """
 import streamlit as st
-import librosa
 import numpy as np
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
