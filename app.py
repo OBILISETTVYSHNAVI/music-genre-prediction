@@ -1,7 +1,10 @@
+app_code = """
 import streamlit as st
+import librosa
 import numpy as np
 from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
+import librosa.display
 import os
 import soundfile as sf
 from pydub import AudioSegment
@@ -44,3 +47,12 @@ if audio_file is not None:
 
     # Show bar chart
     st.bar_chart(predictions)
+"""
+
+# Save the file
+with open("app.py", "w") as f:
+    f.write(app_code)
+
+# Download
+from google.colab import files
+files.download("app.py")
