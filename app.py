@@ -1,8 +1,8 @@
-pip install tensorflow
-pip install librosa
-pip install matplotlib
-pip install seaborn
-pip install keras
+!pip install tensorflow
+!pip install librosa
+!pip install matplotlib
+!pip install seaborn
+!pip install keras
 
 import streamlit as st
 import librosa
