@@ -1,5 +1,3 @@
-!pip install --upgrade librosa --quiet
-
 import streamlit as st
 import librosa
 import numpy as np
