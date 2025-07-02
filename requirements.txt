@@ -1,9 +1,0 @@
-streamlit
-numpy==1.26.4
-tensorflow==2.15.0
-librosa==0.10.1
-matplotlib
-seaborn
-scikit-learn
-soundfile
-pooch==1.6.0
